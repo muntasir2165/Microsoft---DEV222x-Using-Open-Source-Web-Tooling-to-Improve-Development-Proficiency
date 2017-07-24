@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <h1>Welcome to Module 2 Homework!</h1>
+  <h1>'Allo, 'Allo!</h1>
   <p class="lead">
     <img src="images/yeoman.png" alt="I'm Yeoman"><br>
     Always a pleasure scaffolding your apps.
@@ -21,3 +21,19 @@
   <h4>Karma</h4>
   <p>Spectacular Test Runner for JavaScript.</p>
 </div>
+
+<script>
+  $(document).ready(function() {
+    var url = "http://localhost:3000/welcome";
+    $.ajax({
+      url: url,
+      success: function(result) {
+        $(".jumbotron h1").text(result);
+        console.log(result);
+      },
+      error: function(XMLHttpRequest, textStatus, errorThrown) {
+        console.log("textStatus: " + textStatus + " errorThrown: " + errorThrown);
+      }
+    });
+  });
+</script>
