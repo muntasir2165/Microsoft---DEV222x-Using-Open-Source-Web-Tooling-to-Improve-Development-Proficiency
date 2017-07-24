@@ -24,7 +24,8 @@
 
 <script>
   $(document).ready(function() {
-    var url = "http://localhost:3000/welcome";
+    // var url = "http://localhost:3000/welcome";
+    var url = "http://localhost:" + location.port + "/welcome";
     $.ajax({
       url: url,
       success: function(result) {
@@ -32,7 +33,7 @@
         console.log(result);
       },
       error: function(XMLHttpRequest, textStatus, errorThrown) {
-        console.log("textStatus: " + textStatus + " errorThrown: " + errorThrown);
+        console.log("textStatus: " + textStatus + "\nerrorThrown: " + errorThrown);
       }
     });
   });
