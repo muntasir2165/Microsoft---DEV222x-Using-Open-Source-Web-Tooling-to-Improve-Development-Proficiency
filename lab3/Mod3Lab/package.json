@@ -1,0 +1,16 @@
+{
+  "name": "mod3lab",
+  "version": "1.0.0",
+  "description": "karma testing",
+  "main": "lintTest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muntasir Biojid",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0"
+  }
+}
