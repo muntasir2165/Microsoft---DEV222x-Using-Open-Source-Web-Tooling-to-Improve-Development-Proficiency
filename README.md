@@ -5,6 +5,6 @@ Lab materials deal with various web tools aimed at optimizing development profic
 -------------------------------------------------------------
 Lab 1 - Node, NPM, and Bower  
 Lab 2 - Yeoman and Express  
-Lab 3 - Linting (with jsLint) and Testing (with Jasmine and Karma) 
-Lab 4 - Minification and Compiling 
-Lab 5 - Gulp and Grunt 
+Lab 3 - Linting (with jsLint) and Testing (with Jasmine and Karma)  
+Lab 4 - Minification and Compiling  
+Lab 5 - Gulp and Grunt  
